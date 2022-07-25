@@ -16,12 +16,12 @@ body {
     background: rgb(75,11,11);
 background: linear-gradient(180deg, rgba(75,11,11,1) 66%, rgba(33,33,33,1) 80%);
     height: 150px;
-    width: 1305px;
+    width: 1458px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between
-   }
+}
 .logo{
     border-radius: 200px;
     justify-content: left;
@@ -38,35 +38,35 @@ background: linear-gradient(180deg, rgba(75,11,11,1) 66%, rgba(33,33,33,1) 80%);
     font-family: Arial, Helvetica, sans-serif;
 
 }
-.novedades p{
+.novedades {
     background-color: #A32020;
     height: 25px;
     width: 205px;
     border: #AA2D2D solid;
     border-radius: 4px;
 }
-.noticias p{
+.noticias {
     background-color: #A32020;
     height: 25px;
     width: 205px;
     border: #AA2D2D solid;
     border-radius: 4px;
 }
-.recomendados p{
+.recomendados {
     background-color: #A32020;
     height: 25px;
     width: 205px;
     border: #AA2D2D solid;
     border-radius: 4px;
 }
-.estrenos p{
+.estrenos {
     background-color: #A32020;
     height: 25px;
     width: 205px;
     border: #AA2D2D solid;
     border-radius: 4px;
 }
-.nosotros p{
+.nosotros {
     background-color: #A32020;
     height: 25px;
     width: 205px;
@@ -74,10 +74,16 @@ background: linear-gradient(180deg, rgba(75,11,11,1) 66%, rgba(33,33,33,1) 80%);
     border-radius: 4px;
 }
 /* PORTADA*/
-.imgporta {
+.imgporta:hover {
+    display: flex;
     justify-content: center;
-    width: 100%;
+    height: 1000px;
+    width: 1400px;
     border-radius: 20px;
+    filter: grayscale(70%);
+}
+.imgporta {
+    transition: all 0,5s;
 }
 
 /* Tarjetas*/
@@ -88,47 +94,41 @@ background: linear-gradient(180deg, rgba(75,11,11,1) 66%, rgba(33,33,33,1) 80%);
     font-family: Arial, Helvetica, sans-serif;
 }
 .barbie {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 265px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .buss {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 265px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .stranger {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 265px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 
 /*segundas tarjetas*/
 .thor {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 265px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .black {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 265px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .marvel {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 265px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 
@@ -139,7 +139,7 @@ h2{
 .bajada {
     background-color: #3C2323;
     height: 380px;
-    width: 1300px;
+    width: 1460px;
 }
 
 /* subcripcion */
@@ -195,7 +195,6 @@ h1 {
     border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 .nombre {
@@ -233,45 +232,39 @@ iframe {
 
 /* TARJETAS DE ESTRENOS*/
 .minio {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .only {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .anillo {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .thorr {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .lista {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .strange {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .superior {
@@ -287,45 +280,39 @@ iframe{
 /* TARJETAS DE RECOMENDADOS*/
 
 .corea {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .hbo {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .estafa {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .hbom {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .suse {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .cosso {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .superior {
@@ -336,48 +323,78 @@ iframe{
 /* TARJETAS DE NOTICIAS*/
 
 .spenc {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .crista {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .mue {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .cmo {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .xx {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
 .our {
-    background-color: #A32020;
+    background:linear-gradient(#A32020, #212121); 
     height: 280px;
     width: 365px;
-    border: #AA2D2D solid;
     border-radius: 20px;
 }
+.nave ul li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
 ul li a:hover {
     text-decoration: none;
     color: red;
+}
+main .tarjetas, img p {
+    display: flex;
+    justify-content: space-between (0, 0, 2, 8);
+}
+
+.fotito:hover {
+    background-color: #737373;
+}
+
+@keyframes cine {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.padre1, .cine {
+    animation-name: cine;
+    animation-duration: 2s;
+    animation-iteration-count: initial;
 }
