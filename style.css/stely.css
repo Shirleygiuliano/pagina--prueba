@@ -377,3 +377,7 @@ iframe{
     border: #AA2D2D solid;
     border-radius: 20px;
 }
+ul li a:hover {
+    text-decoration: none;
+    color: red;
+}
