@@ -1,0 +1,379 @@
+
+/* Margenes */
+* {
+    padding: 0.25%;
+    margin: 0.22%;
+}
+/* color para el fondo */
+body {
+    background-color: #212121;
+
+}
+
+/* TITULO */
+.padre1 {
+    font-size: 4rem;
+    background: rgb(75,11,11);
+background: linear-gradient(180deg, rgba(75,11,11,1) 66%, rgba(33,33,33,1) 80%);
+    height: 150px;
+    width: 1305px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between
+   }
+.logo{
+    border-radius: 200px;
+    justify-content: left;
+    
+}
+.instagram{
+    justify-content: space-around;
+}
+/* BOTONES DE MENU */
+.padre2 {
+
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.novedades p{
+    background-color: #A32020;
+    height: 25px;
+    width: 205px;
+    border: #AA2D2D solid;
+    border-radius: 4px;
+}
+.noticias p{
+    background-color: #A32020;
+    height: 25px;
+    width: 205px;
+    border: #AA2D2D solid;
+    border-radius: 4px;
+}
+.recomendados p{
+    background-color: #A32020;
+    height: 25px;
+    width: 205px;
+    border: #AA2D2D solid;
+    border-radius: 4px;
+}
+.estrenos p{
+    background-color: #A32020;
+    height: 25px;
+    width: 205px;
+    border: #AA2D2D solid;
+    border-radius: 4px;
+}
+.nosotros p{
+    background-color: #A32020;
+    height: 25px;
+    width: 205px;
+    border: #AA2D2D solid;
+    border-radius: 4px;
+}
+/* PORTADA*/
+.imgporta {
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Tarjetas*/
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.barbie {
+    background-color: #A32020;
+    height: 280px;
+    width: 265px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.buss {
+    background-color: #A32020;
+    height: 280px;
+    width: 265px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.stranger {
+    background-color: #A32020;
+    height: 280px;
+    width: 265px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+
+/*segundas tarjetas*/
+.thor {
+    background-color: #A32020;
+    height: 280px;
+    width: 265px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.black {
+    background-color: #A32020;
+    height: 280px;
+    width: 265px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.marvel {
+    background-color: #A32020;
+    height: 280px;
+    width: 265px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+
+h2{
+    margin: auto;
+}
+/* caja de footer*/
+.bajada {
+    background-color: #3C2323;
+    height: 380px;
+    width: 1300px;
+}
+
+/* subcripcion */
+
+.suscrip {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    
+}
+
+.suscribite {
+    background-color: #BB1E1E;
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.email {
+    background-color: rgb(216, 219, 221);
+    backface-visibility: initial;
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+hr {
+    background-color: #737373;
+    border: #737373 solid;
+    height: 0px;
+}
+
+/* CONTACTOS*/
+.presenta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.caja1 {
+    background: rgb(153,107,107);
+    background: linear-gradient(180deg, rgba(153,107,107,1) 44%, rgba(33,33,33,1) 100%);
+    height: 200px;
+    width: 600px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nombre {
+    background-color: rgb(216, 219, 221);
+    backface-visibility: initial;
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.envi {
+    background-color: #DFB520;
+    backface-visibility: initial;
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.preguntas {
+    background-color: rgb(216, 219, 221);
+    backface-visibility: initial;
+    height: 40px;
+    width: 250px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+}
+
+/* TARJETAS DE ESTRENOS*/
+.minio {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.only {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.anillo {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.thorr {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.lista {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.strange {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.superior {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+iframe{
+    width: 98%;
+    justify-content: center;
+}
+
+/* TARJETAS DE RECOMENDADOS*/
+
+.corea {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.hbo {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.estafa {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.hbom {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.suse {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.cosso {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.superior {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* TARJETAS DE NOTICIAS*/
+
+.spenc {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.crista {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.mue {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.cmo {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.xx {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
+.our {
+    background-color: #A32020;
+    height: 280px;
+    width: 365px;
+    border: #AA2D2D solid;
+    border-radius: 20px;
+}
